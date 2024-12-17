@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Converter - Money</title>
+  </head>
+
+  <body>
+    <img class="logo" src="./assets/logo.gif" alt="logo-converte-money" />
+    <main>
+      <label
+        >converter <b>de</b>
+        <select>
+          <option>R$ Real Basileiro</option>
+        </select>
+      </label>
+
+      <label
+        >Converter <b>para</b>
+        <select class="currency-select">
+          <option value="dolar">US$ Dólar americano</option>
+          <option value="euro">€ Euro</option>
+        </select>
+        <label>
+          Valor
+          <input class="input-currency" placeholder="R$ 10.000,00" />
+        </label>
+
+        <button class="button">Converter</button>
+
+        <section>
+          <div class="currency-box">
+            <img src="./assets/brasil 2.png" alt="logo-moeda-a-converte" />
+            <p class="currency">Real</p>
+            <p class="currency-value-to-convert">R$ 0,00</p>
+          </div>
+
+          <img class="arrow-img" src="./assets/arrow.png" alt="seta" />
+
+          <div class="currency-box">
+            <img
+              class="currency-img"
+              src="./assets/dolar.png"
+              alt="logo-moeda-a-convertida"
+            />
+            <p class="currency" id="currency-name">Dolar americano</p>
+            <p class="currency-value">US$ 0,00</p>
+          </div>
+        </section>
+      </label>
+    </main>
+  </body>
+  <script src="./scripts.js"></script>
+</html>
