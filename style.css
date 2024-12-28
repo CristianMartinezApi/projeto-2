@@ -7,8 +7,6 @@ outline: none;
 }
 
 body {
-   /* background-color:  #777777; */
-
     background-image: url("./assets/logofundo.png");  /* Caminho da imagem */
     background-repeat: no-repeat;
     background-size: cover;
