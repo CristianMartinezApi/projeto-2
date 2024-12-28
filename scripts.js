@@ -1,6 +1,7 @@
 const convertButton = document.querySelector(".button");
 const currencySelect = document.querySelector(".currency-select");
 
+
 async function getExchangeRates() {
   const response = await fetch("https://api.exchangerate-api.com/v4/latest/BRL");
   const data = await response.json();
